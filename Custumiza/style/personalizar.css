@@ -1,0 +1,54 @@
+.editor-container {
+    display: flex;
+    padding: 50px 5%;
+    gap: 50px;
+    align-items: center;
+}
+
+.preview-area {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.caneca-mockup {
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    border: 2px solid #ddd;
+    border-radius: 20px 80px 20px 20px; /* Formato de caneca simplificado */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+#textoPreview {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    max-width: 80%;
+}
+
+.controles-area {
+    flex: 1;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.opcao {
+    margin-bottom: 25px;
+}
+
+.opcao label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.opcao input {
+    width: 100%;
+    padding: 10px;
+}

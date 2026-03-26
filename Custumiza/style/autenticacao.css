@@ -1,0 +1,94 @@
+/* Estilos para Telas de Login e Cadastro */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    padding: 40px 20px;
+}
+
+.auth-box {
+    background-color: var(--branco);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 420px;
+}
+
+.auth-box h1 {
+    color: var(--rosa-principal);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.auth-box p {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.campo input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.campo input:focus {
+    border-color: var(--rosa-principal);
+    box-shadow: 0 0 5px rgba(192, 112, 124, 0.2);
+}
+
+.btn-acao {
+    width: 100%;
+    padding: 15px;
+    background-color: var(--rosa-principal);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.btn-acao:hover {
+    filter: brightness(0.9);
+    transform: translateY(-2px);
+}
+
+.auth-footer {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.auth-footer a {
+    color: var(--rosa-principal);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-voltar-home {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: var(--texto-escuro);
+    font-size: 0.9rem;
+}

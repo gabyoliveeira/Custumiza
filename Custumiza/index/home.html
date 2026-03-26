@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Custumiza - Home</title>
+    <link rel="stylesheet" href="/style/global.css">
+    <link rel="stylesheet" href="/style/home.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Custumiza</div>
+        <input type="text" id="campoBusca" placeholder="Buscar canecas...">
+        <div class="icones">
+            <span>👤</span> <span>🛒</span>
+        </div>
+    </header>
+
+    <!-- Menu de Categorias -->
+    <nav id="menuCategorias"></nav>
+
+    <!-- Banner personalizar (call to action) -->
+    <section class="banner">
+        <div class="fraseBanner">
+            <h1>Crie sua própria caneca!</h1> 
+            <p>Use nosso editor e personalize do seu jeito</p>
+        </div>
+        <button class="btnPersonalizar">
+            <span>🪄</span> Personalizar Agora</button>
+    </section>
+
+    <!-- Catálogo de Produtos -->
+    <main class="catalogo"> 
+        <div class="produtosCatalogo">
+            <h2>Todos os Produtos</h2> 
+            <span id="contadorProdutos">0 produtos encontrados</span> 
+        </div>
+
+        <div class="produtosGrid" id="gradeProdutos"></div>
+    </main> 
+
+    <!-- Rodapé do site -->
+    <footer class="rodape">
+        <div class="footerContainer">
+            <div class="footerCol">
+                <h3>Custumiza</h3>
+                <p>Transformando suas ideias em canecas exclusivas com amor e qualidade.</p>
+            </div>
+
+            <div class="footerCol">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#">Personalizar</a></li>
+                    <li><a href="#">Minha Conta</a></li>
+                </ul>
+            </div>
+
+            <div class="footerCol">
+                <h4>Contato</h4>
+                <ul class="contatos-lista">
+                    <li><span>📍</span> Rua das Canecas, 123 - Centro</li>
+                    <li><span>📞</span> (31) 98765-4321</li>
+                    <li><span>✉️</span> contato@custumiza.com.br</li>
+                </ul>
+            </div>
+
+            <div class="footerCol">
+                <h4>Siga-nos</h4>
+                <div class="redes-sociais">
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footerBottom">
+            <p>&copy; 2026 Custumiza - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="/scripts/home.js"></script>
+</body>
+</html>
