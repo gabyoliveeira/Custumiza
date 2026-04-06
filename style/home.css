@@ -1,0 +1,53 @@
+/* Navegação por Categorias */
+nav {
+    display: flex;
+    gap: 15px;
+    padding: 20px 5%;
+}
+
+nav button {
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--bege-botao);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+nav button.ativo, nav button:hover {
+    background-color: var(--rosa-principal);
+    color: white;
+}
+
+/* Banner de Destaque */
+.banner {
+    margin: 0 5%;
+    height: 250px;
+    background: var(--degrade-banner);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    color: white;
+}
+
+/* Grade de Produtos */
+.produtosGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    padding: 40px 5%;
+}
+
+.produtoCard {
+    background: var(--branco);
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.produtoCard img {
+    width: 100%;
+    border-radius: 12px;
+}

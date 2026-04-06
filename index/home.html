@@ -3,25 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <title>Custumiza - Home</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/style/global.css">
+    <link rel="stylesheet" href="/style/home.css">
 </head>
 <body>
     <header>
         <div class="logo">Custumiza</div>
-        <input type="text" placeholder="Buscar canecas...">
+        <!-- Barra de busca p/ procurar arquivos específicos -->
+        <input type="text" id="campoBusca" placeholder="Buscar canecas..."> 
         <div class="icones">
             <span>👤</span> <span>🛒</span> </div>
     </header>
     
-    <nav>
-        <button>Todas</button>
-        <button>Cerâmica</button>
-        <button>Témicas</button>
-        <button>Vidro</button>
-        <button>Mágicas</button>
-        <button>Personalizadas</button>
-    </nav>
+    <!-- Navegação por categorias -->
+    <nav id="menuCategorias"></nav>
 
+    <!-- Banner principal de personalização (call to action) -->
+    <section class="banner">
+        <div class="fraseBanner">
+            <h1>Crie sua própria caneca!</h1>
+            <p>Use nosso editor e personalize do seu jeito</p>
+        </div>
+        <button class="btnPersonalizar">
+            <span>🪄</span> Personalizar Agora
+        </button>
+    </section>
+
+    <!-- Exibição de produtos/catálogo -->
+    <main class="catalogo">
+        <div class="produtosCatalogo">
+            <h2>Todos os Produtos</h2>
+            <span id="contadorProdutos">0 produtos encontrados</span>
+        </div>
+
+        <div class="produtosGrid">
+            <div class="produtoCard" id="gradeProdutos"></div>
+        </div>
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer class="rodape">
+    <div class="footer-container">
+        <div class="footer-col">
+            <h3>Custumiza</h3>
+            <p>Personalize do seu jeito!</p>
+        </div>
+
+        <div class="footer-col">
+            <h4>Navegação</h4>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Personalizar</a></li>
+                <li><a href="#">Minha Conta</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4>Contato</h4>
+            <ul class="contatos-lista">
+                <li><span>📍</span> Rua das Canecas, 123 - Centro</li>
+                <li><span>📞</span> (31) 98765-4321</li>
+                <li><span>✉️</span> contato@custumiza.com.br</li>
+                <li><span>🌐</span> www.custumiza.com.br</li>
+                <li><span>🏢</span> CNPJ: 12.345.678/0001-90</li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4>Siga-nos</h4>
+            <div class="redes-sociais">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">WhatsApp</a>
+            </div>
+        </div>
+    </div>
     
+    <div class="footer-bottom">
+        <p>&copy; 2026 Custumiza - Todos os direitos reservados.</p>
+    </div>
+</footer>
+    
+    <!-- O script vai usar o id para automatizar a página -->
+    <script src="./scripts/home.js"></script>
 </body>
 </html>

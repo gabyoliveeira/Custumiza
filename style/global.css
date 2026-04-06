@@ -1,0 +1,54 @@
+/* Variáveis de Cores e Estilos Globais */
+:root {
+    --rosa-principal: #C0707C;
+    --bege-fundo: #F5EADD;
+    --bege-botao: #E8DCCB;
+    --branco: #FFFFFF;
+    --texto-escuro: #5D4037;
+    --degrade-banner: linear-gradient(90deg, #C0707C 0%, #949C84 100%);
+}
+
+/* Reset de CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--bege-fundo);
+    color: var(--texto-escuro);
+}
+
+/* Estilo do Header (Comum a todas as telas) */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: var(--branco);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--rosa-principal);
+}
+
+header input {
+    width: 40%;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+/* Estilo do Rodapé (Comum a todas as telas) */
+footer {
+    background-color: var(--bege-botao);
+    padding: 40px 5%;
+    margin-top: 50px;
+    text-align: center;
+}
