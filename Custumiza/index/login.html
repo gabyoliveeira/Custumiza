@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Custumiza - Login</title>
+    <link rel="stylesheet" href="/style/global.css">
+    <link rel="stylesheet" href="/style/autenticacao.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Custumiza</div>
+    </header>
+
+    <main class="auth-container">
+        <div class="auth-box">
+            <a href="home.html" class="btn-voltar-home">← Voltar</a>
+            <h1>Acesse sua conta</h1>
+            <p>Entre para gerenciar seus pedidos.</p>
+
+            <form id="formLogin">
+                <div class="campo">
+                    <label>E-mail</label>
+                    <input type="email" id="email" placeholder="seu@email.com" required>
+                </div>
+
+                <div class="campo">
+                    <label>Senha</label>
+                    <input type="password" id="senha" placeholder="Sua senha" required>
+                </div>
+
+                <button type="submit" class="btn-acao">Entrar</button>
+            </form>
+
+            <div class="auth-footer">
+                <span>Não tem conta? <a href="cadastro.html">Cadastre-se aqui</a></span>
+            </div>
+        </div>
+    </main>
+
+    <script src="scripts/login.js"></script>
+</body>
+</html>

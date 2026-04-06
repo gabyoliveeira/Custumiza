@@ -1,0 +1,10 @@
+.carrinho-container { padding: 40px 5%; }
+.carrinho-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 30px; }
+.resumo-carrinho {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    height: fit-content;
+}
+.linha-resumo { display: flex; justify-content: space-between; margin-bottom: 10px; }
+.total { font-size: 1.2rem; color: var(--rosa-principal); margin-top: 15px; }
